@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>XURYA | Home</title>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <!-- Header | Navbar -->
+      <header class="navbar">
+        <div class="logoContainer">
+          <img src="./assets/logo.png" alt="LOGO" />
+          <span id="logoTextEl"></span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="btnWrapper">
+          <button>Log in</button>
+          <button>Get in touch</button>
+        </div>
+      </header>
+      <!-- End Of Header | Navbar -->
+      <!-- Hero Section -->
+      <section class="heroSection">
+        <img src="./assets/windmill-2.jpg" alt="Banner" class="hero_banner" />
+        <div class="contentBox">
+          <div>
+            <p>#1 Energy provider in the world</p>
+            <h5>New Energy for the Future</h5>
+            <div class="ctaWrapper">
+              <span> Get in touch <i class="fa-solid fa-arrow-right"></i></span>
+              <span>Our services <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+          <div class="glassMorphismContainer">
+            <div class="first_row">
+              <img src="./assets/windmill-1.jpg" alt="PROJECT_IMAGE" />
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="second_row">
+              <i class="fa-solid fa-arrow-right"></i>
+              <p>Discover Our Recent Project</p>
+            </div>
+          </div>
+        </div>
+        <div class="ad">
+          <div>
+            <h3>6 mil</h3>
+            <p>The company's annual net income</p>
+          </div>
+          <div>
+            <h3>315</h3>
+            <p>The company's annual net income</p>
+          </div>
+          <div>
+            <h3>120K</h3>
+            <p>Employees work in all parts of the world</p>
+          </div>
+        </div>
+      </section>
+      <!-- End Of Hero Section -->
+    </main>
+    <script>
+      const appName = "XURYA";
+      document.getElementById("logoTextEl").innerText = appName;
+    </script>
+  </body>
+</html>
