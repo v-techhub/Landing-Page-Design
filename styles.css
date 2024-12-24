@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
 
 /* CSS Variables here */
 :root {
   --bg: #ffffff;
   --black-400: #5f5f5f;
+  --gray-300: #858d97;
   --black-800: #2d2d2d;
   --primary: #06d47e;
   --gray-100: #dcdedd;
@@ -13,8 +14,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
 }
 
 /* clip-path: ellipse(25% 40% at 50% 50%); Ellipse shape */
@@ -260,6 +261,28 @@ html {
         font-size: 1.1em;
       }
     }
+  }
+}
+/* End Of Hero Section */
+
+.heroTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 3rem;
+  width: 90%;
+  margin: auto;
+
+  :is(h4, span) {
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+  span {
+    color: var(--gray-300);
+  }
+  p {
+    font-size: 1.3em;
+    color: var(--gray-300);
   }
 }
 
